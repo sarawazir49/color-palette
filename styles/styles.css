@@ -5,7 +5,7 @@ main{
     justify-content: center;
     align-items: center;
     background: #E5E5E5;
-    
+    flex-direction: column
 }
 
 .main-container{
@@ -16,8 +16,7 @@ main{
     padding: 15px;
     width: 1440px;
 height: 754px;
-
-background: #FFFFFF;
+background: #E5E5E5;
 }
 
 .color1{
@@ -138,3 +137,16 @@ color: #000000;
 
 background: #9BC1BC;
 }
+ol{
+    background: #E5E5E5;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 42px;
+display: flex;
+justify-content: space-around;
+color: #000000;
+}
+
+
