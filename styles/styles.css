@@ -1,0 +1,140 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+    
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 15px;
+    padding: 15px;
+    width: 1440px;
+height: 754px;
+
+background: #FFFFFF;
+}
+
+.color1{
+    grid-row: 1/4;
+    grid-column: 1/4;
+
+background: #007F5F;
+width: 448px;
+height: 195px;
+}
+
+.color2{
+    grid-row:4/3;
+    grid-column:1/4 ;
+    width: 448px;
+    height: 195px;
+    left: 24px;
+    top: 243px;
+    
+    background: #2B9348;
+}
+
+.color3{
+    grid-column: 1 / 4;
+    width: 448px;
+    height: 268px;
+    left: 24px;
+    top: 462px;
+    grid-row: 4/6;
+    background: #55A630;
+}
+
+.color4{
+    width: 448px;
+    height: 414px;
+    left: 484px;
+    top: 24px;
+    grid-row: 1/6;
+    grid-column: 4/8;
+    background: #80B918;
+}
+.color5{
+    width: 212px;
+    height: 122px;
+    left: 496px;
+    top: 462px;
+    background: #AACC00;
+    grid-row: 4/5;
+    grid-column: 4/4;
+}
+.color6{
+    width: 212px;
+    height: 122px;
+    left: 496px;
+    top: 608px;
+    grid-row: 5/6;
+    grid-column: 4/4;
+    background: #BFD200;
+}
+.color7{
+    width: 530px;
+    height: 122px;
+    left: 968px;
+    top: 24px;
+    grid-row: 1/2;
+    grid-column:7/12;
+    background: #DDDF00;
+}
+.color8{
+    width: 530px;
+    height: 122px;
+    left: 968px;
+    top: 170px;
+    grid-row: 2/3;
+    grid-column: 7/12;
+    background: #EEEF20;
+}
+.color9{
+    width: 530px;
+    height: 122px;
+    left: 968px;
+    top: 316px;
+    grid-row: 3/4;
+    grid-column: 7/12;
+    background: #FFFF3F;
+}
+.color10{
+    width: 448px;
+    height: 268px;
+    left: 732px;
+    top: 462px;
+    grid-row: 4/12;
+    grid-column: 5/10;
+    background: #D4D700;
+}
+.color11{
+    width: 200px;
+    height: 268px;
+    left: 1204px;
+    top: 462px;
+    grid-row: 4/12;
+    grid-column: 10/12;
+    background: #007F5F;
+}
+.mc{
+    grid-row:6/12;
+    grid-column: 1/12;
+align-items: center;
+justify-content: center;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+text-transform: uppercase;
+
+color: #000000;
+
+background: #9BC1BC;
+}
